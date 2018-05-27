@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>elemental2-vr</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1-beta1</version>
     <packaging>jar</packaging>
     <name>elemental2-vr</name>
     <description>Thin Java abstractions for the native Web VR Library APIs. (Temporary project)</description>
@@ -28,7 +27,8 @@
     <scm>
         <url>https://github.com/treblereel/elemental2-vr</url>
         <connection>scm:git:git://github.com/treblereel/elemental2-vr.git</connection>
-    </scm>
+      <tag>elemental2-vr-0.1-beta1</tag>
+  </scm>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.treblereel.gwt</groupId>
     <artifactId>elemental2-vr</artifactId>
-    <version>0.1-beta2</version>
+    <version>0.1-beta3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>elemental2-vr</name>
     <description>Thin Java abstractions for the native Web VR Library APIs. (Temporary project)</description>
@@ -34,7 +34,7 @@
         <url>https://github.com/treblereel/elemental2-vr</url>
         <developerConnection>scm:git:git@github.com:treblereel/elemental2-vr.git</developerConnection>
         <connection>scm:git:git://github.com/treblereel/elemental2-vr.git</connection>
-        <tag>elemental2-vr-0.1-beta2</tag>
+        <tag>elemental2-vr-0.1-beta1</tag>
     </scm>
 
     <properties>

@@ -15,10 +15,10 @@
  */
 package elemental2.vr;
 
-import elemental2.dom.DomGlobal;
 import elemental2.dom.Event;
 import elemental2.dom.EventListener;
 import elemental2.dom.EventTarget;
+import elemental2.dom.FrameRequestCallback;
 import elemental2.promise.Promise;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
@@ -160,7 +160,7 @@ public class VRDisplay implements EventTarget {
      * @param callback A callback function that will be called every time a new frame of the VRDisplay presentation is rendered.
      * @return A long representing the handle of the requestAnimationFrame() call. This can then be passed to a VRDisplay.cancelAnimationFrame() call to unregister the callback.
      */
-    public native double requestAnimationFrame(DomGlobal.RequestAnimationFrameCallbackFn callback);
+    public native double requestAnimationFrame(FrameRequestCallback callback);
 
     /**
      * The requestPresent() method of the VRDisplay interface starts the VRDisplay presenting a scene.
